@@ -16,6 +16,7 @@ services:
       - postgres
     environment:
       RUST_LOG: "info"
+      GRAPH_ETHEREUM_REQUEST_RETRIES: "1"
       postgres_host: "postgres"
       postgres_user: "graph-node"
       postgres_pass: "4feaf4ae-68cf-495c-ac36-6752b0a2f0e5"
