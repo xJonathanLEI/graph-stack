@@ -17,6 +17,7 @@ services:
     environment:
       GRAPH_LOG: "info"
       GRAPH_ETHEREUM_REQUEST_RETRIES: "1"
+      GRAPH_ETHEREUM_JSON_RPC_TIMEOUT: "5"
       postgres_host: "postgres"
       postgres_user: "graph-node"
       postgres_pass: "4feaf4ae-68cf-495c-ac36-6752b0a2f0e5"
