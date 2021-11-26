@@ -15,7 +15,7 @@ services:
     depends_on:
       - postgres
     environment:
-      RUST_LOG: "info"
+      GRAPH_LOG: "info"
       GRAPH_ETHEREUM_REQUEST_RETRIES: "1"
       postgres_host: "postgres"
       postgres_user: "graph-node"
